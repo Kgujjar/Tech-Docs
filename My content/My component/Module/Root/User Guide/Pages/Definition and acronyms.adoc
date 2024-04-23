@@ -1,0 +1,24 @@
+Definition and acronyms 
+Term	Definition
+Generic File	A file of the lowest delivery level of a product 
+Helm Chart	A Helm chart is a package format. It is also known as containerized software
+Docker image	A Docker image is a lightweight, standalone, executable package that contains everything needed to run a piece of software, including the code, runtime, libraries, and dependencies.
+HTTP Basic Authentication 	Involves the process of securely accessing web resources via commands in a terminal or console. The method described in this guide is token-based.
+Token 	Is a unique and encrypted piece of data used for authentication
+
+Acronym	Definition
+CLI	Command Line Interface
+HTTP	Hypertext Transfer Protocol 
+SWDP	Software Delivery Platform
+Common name for the ecosystem consisting of SEaDOC and NEAR
+PAT	Personal Access Token
+LDAP	Lightweight Directory Access Protocol
+GUI	Graphical User Interface
+API	Application Programming Interface
+VPN	 Virtual Private Network
+CURL	Client URL
+SEaDOC	Software Entitlement and Delivery Orchestration Center
+Based on the eccenca Corporate Memory solution. Links the commercial entitlement to the detailed technical product structure, orchestrates the SW distribution, orchestrates delivery compliance checks.
+NEAR	Nokia Enterprise Artifacts Repository
+Is the main SW Repository of SWDP. Its based on JFrog’s Enterprise solution, which is an end-to-end universal DevOps platform for CI/CD pipelines and includes all JFrog products such as Artifactory, Distribution and Mission Control.
+
