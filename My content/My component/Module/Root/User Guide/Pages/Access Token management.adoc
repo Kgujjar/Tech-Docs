@@ -1,6 +1,7 @@
 = Access Token management
 
 
+
 To access the SWDP download site via CLI, you will need a Personal Access Token (PAT). 
 
 Authentication to the SWDP download site is done using the username PAT and a generated access token.
@@ -10,17 +11,20 @@ The access token is generated and managed either using a dedicated service under
 
 Credentials must be passed via HTTP Basic Authentication (HTTP Header Authorization containing base64-encoded credentials). 
 
-== 1.1	Access token management using CLI
+:sectnums:
+== Access token management using CLI
+
 
 This section explains how to generate or revoke an access token using CLI.
 
-
-=== 1.1.1	Prerequisite
+:sectnums:
+=== Prerequisite
 
 Ensure that you have access to the Nokia Support Portal. The registration guide to the Nokia Support Portal is available on the portal website.
 For SWDP token generation, you need to specify the same credentials (email address and password) that you use to access the Nokia Support Portal.
 
-=== 1.1.2	Generating an access token
+:sectnums:
+=== Generating an access token
 
 
 . To generate the access token, run the command below:
@@ -50,12 +54,14 @@ DO NOT ENTER THE PASSWORD DIRECTLY INTO THE COMMAND LINE!
 
 The password should be always provided via the prompt. With this approach, it is ensured the password is not left in any bash history.
 
-=== 1.1.3	Revoking the access token 
+
+:sectnums:
+=== Revoking the access token 
 
 When you no longer need a token, you can revoke it. 
 
-
-==== 1.1.3.1	Revoke only one token
+:sectnums:
+==== Revoke only one token
 
 
 To revoke only one specific token, run the command below using the value PAT (personal access token) as username. When prompted for a password, the revoked token must be used:
@@ -64,7 +70,8 @@ curl <hostname>/api/v1/token/revoke -u PAT -X POST
 
 Once the command is run, the token will be removed. 
 
-=== 1.1.3.2	Revoke all tokens for a given authentication username (user mail, country code, end user id)
+:sectnums:
+=== Revoke all tokens for a given authentication username (user mail, country code, end user id)
 
 To revoke all tokens related to a specific authentication username, run the curl command shown below. When prompted for a password, the user password in LDAP must be used:
 
@@ -72,7 +79,8 @@ curl <hostname>/api/v1/token/revoke/all -u <email address> -X POST
 
 This will remove all tokens of the given authentication username.
 
-==1.2	Access   token management using SWDP Portal (Availability to be announced later)
+:sectnums:
+=== Access token management using SWDP Portal (Availability to be announced later)
 
 
 This section will cover how to generate a token, view or delete a token using the SWDP Portal. 
@@ -87,7 +95,8 @@ SWDP Portal offers two web portal URLs to create access tokens:
 image::swdp.png[]
 
 
-== 1.2.1	Logging in to SWDP Portal 
+:sectnums:
+== Logging in to SWDP Portal 
 
 On the SWDP Portal,
 
@@ -97,7 +106,8 @@ On the SWDP Portal,
 
 . Click the Use another account button to sign in with a different email and password.
 
-=== 1.2.1.1	Pick an Account
+:sectnums:
+=== Pick an Account
 
 If you see your credentials in the displayed list, click on it:
 
@@ -109,7 +119,8 @@ Once you click your account, you will be logged in.
 
 
 
-=== 1.2.1.2	Use Another Account
+:sectnums:
+=== Use Another Account
 
 If you do not see your account, click the Use another account button, then type your email:
 
@@ -139,11 +150,13 @@ image::Password.png[]
 
 
 
-== 1.2.2	Managing access tokens using SWDP Portal
+:sectnums:
+== Managing access tokens using SWDP Portal
 
 In this section you will be guided on how to navigate the SWDP Portal to create, delete and view token(s).
 
-=== 1.2.2.1	Access Tokens
+:sectnums:
+=== Access Tokens
 
 After you have logged into the SWDP Portal, you will see the landing page. Click the Access Tokens button:
 
@@ -163,7 +176,8 @@ image::Token.png[]
 
 
 
-=== 1.2.2.2	Generating a token
+:sectnums:
+=== Generating a token
 
 
 . To create a token, click the Generate Token button. 
@@ -209,7 +223,8 @@ image::token portal.png[]
 
 
 
-=== 1.2.2.2	Delete Tokens
+:sectnums:
+=== Delete Tokens
 
 There are two options for deleting tokens: 
 
@@ -238,7 +253,8 @@ image::delete tokens.png[]
 
 
 
-=== 1.2.2.3	Expiration of a token
+:sectnums:
+=== Expiration of a token
 
 If you have any token(s) that are about to expire, you will receive an email notification with the information from each token. If you 
 still need the token(s), make sure to create new ones on the SWDP Portal.
