@@ -170,7 +170,7 @@ image::Token.png[]
 
 A new pop-up window will appear, asking you to provide a name to your token. 
 
-*Type a unique name meeting the following criteria:
+* Type a unique name meeting the following criteria:
 
 * Starts and ends with an alphanumeric character.
 
@@ -190,23 +190,59 @@ image::generate new token.png[]
 
 After Typing the name, click the Submit button.
 
-2.	The next pop-up window will contain the token. 
+. The next pop-up window will contain the token. 
+
+.Token created dialog box.
+image::new token.png[]
+
+
 
 
 ⚠	Make sure to copy it now and store it in a safe place. It will not be shown to you again.
-3.	After you copy your token, click the Close button.
-4.	You will see your previous and recently created token names.
 
-1.2.2.2	Delete Tokens
+* After you copy your token, click the Close button.
+* You will see your previous and recently created token names.
+
+.Access token window.
+image::token portal.png[]
+
+
+
+=== 1.2.2.2	Delete Tokens
+
 There are two options for deleting tokens: 
-•	Select one or more tokens to delete individually, or  
-•	Delete all your tokens at once.
 
-To delete one or multiple tokens, click the checkbox next to each token's name, then click the Delete selected button. A confirmation message displays. Click Yes to delete the selected tokens.
+* Select one or more tokens to delete individually, or  
 
-If you want to delete all tokens at once, click the Delete all button. You will be prompted to confirm your choice to delete all your access tokens. Click Yes to delete all tokens.
+* Delete all your tokens at once.
 
-1.2.2.3	Expiration of a token
-If you have any token(s) that are about to expire, you will receive an email notification with the information from each token. If you still need the token(s), make sure to create new ones on the SWDP Portal.
-ⓘ	Email notification is set to two weeks, one week, one day and the day of expiration of the token. Expired tokens get deleted once the last notification is sent on day of expiration.
+
+To delete one or multiple tokens, click the checkbox next to each token's name, then click the Delete selected button. A confirmation 
+
+message displays. Click Yes to delete the selected tokens.
+
+.Selection of token(s) to be deleted
+image::access tokens.png[]
+
+
+
+
+If you want to delete all tokens at once, click the Delete all button. You will be prompted to confirm your choice to delete all your 
+
+access tokens. Click Yes to delete all tokens.
+
+
+.Delete all token pop-up window.
+image::delete tokens.png[]
+
+
+
+=== 1.2.2.3	Expiration of a token
+
+If you have any token(s) that are about to expire, you will receive an email notification with the information from each token. If you 
+still need the token(s), make sure to create new ones on the SWDP Portal.
+
+
+ⓘ	Email notification is set to two weeks, one week, one day and the day of expiration of the token. Expired tokens get deleted once 
+the last notification is sent on day of expiration.
 
