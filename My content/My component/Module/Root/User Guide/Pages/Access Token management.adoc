@@ -83,7 +83,7 @@ SWDP Portal offers two web portal URLs to create access tokens:
 
 •	To create tokens for a non-US customer, use: https://portal.swdp-pull-fin.swdp.dyn.nesc.nokia.net/
 
-
+.SWDP Portal Landing Page.
 image::swdp.png[]
 
 
