@@ -3,7 +3,7 @@
 Release 1.0
 
 image::image1.png[March 2024, © 2024 Nokia. Nokia Confidential Information, Use subject to agreed restrictions on disclosure and use.]
-March 2024
+
 
 
 == Legal Notice
