@@ -147,17 +147,46 @@ In this section you will be guided on how to navigate the SWDP Portal to create,
 
 After you have logged into the SWDP Portal, you will see the landing page. Click the Access Tokens button:
 
+.SWDP Portal after successful login.
+image::Welcome.png[]
+
+
+
 You will see the Token Management Page. From here, you can generate, delete and view your token(s):
 
-1.2.2.2	Generating a token
-1.	To create a token, click the Generate Token button. 
+
+.Access Token Window.
+image::Token.png[]
+
+
+
+
+
+
+=== 1.2.2.2	Generating a token
+
+
+. To create a token, click the Generate Token button. 
+
 A new pop-up window will appear, asking you to provide a name to your token. 
-•	Type a unique name meeting the following criteria:
-•	Starts and ends with an alphanumeric character.
-•	Does not contain any other characters.
-o	Max 64 characters.
-o	May contain alphanumeric characters or hyphens.
+
+*Type a unique name meeting the following criteria:
+
+* Starts and ends with an alphanumeric character.
+
+* Does not contain any other characters.
+
+** Max 64 characters.
+
+** May contain alphanumeric characters or hyphens.
+
 NOTE: Country code and Customer ID will be automatically populated and are not editable.
+
+
+.Generate new access token dialog box.
+image::generate new token.png[]
+
+
 
 After Typing the name, click the Submit button.
 
