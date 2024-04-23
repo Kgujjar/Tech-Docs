@@ -190,6 +190,7 @@ image::generate new token.png[]
 
 After Typing the name, click the Submit button.
 
+[start=2]
 . The next pop-up window will contain the token. 
 
 .Token created dialog box.
