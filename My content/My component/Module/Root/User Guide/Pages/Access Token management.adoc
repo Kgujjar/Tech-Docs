@@ -1,47 +1,96 @@
-Access Token management
+= Access Token management
+
+
 To access the SWDP download site via CLI, you will need a Personal Access Token (PAT). 
+
 Authentication to the SWDP download site is done using the username PAT and a generated access token.
+
 The access token is generated and managed either using a dedicated service under the SWDP web GUI or using dedicated SWDP download site endpoint(s). The access token is decrypted on the SWDP side, and credentials are checked against Nokia users Active Directory.
+
+
 Credentials must be passed via HTTP Basic Authentication (HTTP Header Authorization containing base64-encoded credentials). 
-1.1	Access token management using CLI
+
+== 1.1	Access token management using CLI
+
 This section explains how to generate or revoke an access token using CLI.
-1.1.1	Prerequisite
+
+
+=== 1.1.1	Prerequisite
+
 Ensure that you have access to the Nokia Support Portal. The registration guide to the Nokia Support Portal is available on the portal website.
 For SWDP token generation, you need to specify the same credentials (email address and password) that you use to access the Nokia Support Portal.
-1.1.2	Generating an access token
-1.	To generate the access token, run the command below:
+
+=== 1.1.2	Generating an access token
+
+
+. To generate the access token, run the command below:
+
 curl <hostname>/api/v1/token/create -u <email address> -X POST
-The -u option is used to specify your Nokia Support Portal email address for authentication. 
+The -u option is used to specify your Nokia Support Portal email address for authentication.
+
+
 •	You are prompted to enter a password. 
-2.	Enter the same password you use to access Nokia Support Portal.
+
+.. Enter the same password you use to access Nokia Support Portal.
+
 The token is valid for 3 months, after which the user must generate a new token.
+
 Example:
+
 curl https://swdp-pull-fi.swdp.dyn.nesc.nokia.net/api/v1/token/create -u john.smith@example.com -X POST
 
 
 IMPORTANT:
+
 Token generation is limited to 20 requests per minute per IP address. Whenever the limit is reached, error 429 is displayed. 
+
 CAUTION:
+
 DO NOT ENTER THE PASSWORD DIRECTLY INTO THE COMMAND LINE!
+
 The password should be always provided via the prompt. With this approach, it is ensured the password is not left in any bash history.
-1.1.3	Revoking the access token 
+
+=== 1.1.3	Revoking the access token 
+
 When you no longer need a token, you can revoke it. 
-1.1.3.1	Revoke only one token
+
+
+==== 1.1.3.1	Revoke only one token
+
+
 To revoke only one specific token, run the command below using the value PAT (personal access token) as username. When prompted for a password, the revoked token must be used:
+
 curl <hostname>/api/v1/token/revoke -u PAT -X POST
+
 Once the command is run, the token will be removed. 
-1.1.3.2	Revoke all tokens for a given authentication username (user mail, country code, end user id)
+
+=== 1.1.3.2	Revoke all tokens for a given authentication username (user mail, country code, end user id)
+
 To revoke all tokens related to a specific authentication username, run the curl command shown below. When prompted for a password, the user password in LDAP must be used:
+
 curl <hostname>/api/v1/token/revoke/all -u <email address> -X POST
+
 This will remove all tokens of the given authentication username.
-1.2	Access   token management using SWDP Portal (Availability to be announced later)
+
+==1.2	Access   token management using SWDP Portal (Availability to be announced later)
+
+
 This section will cover how to generate a token, view or delete a token using the SWDP Portal. 
+
 SWDP Portal offers two web portal URLs to create access tokens:
+
 •	To create tokens for a customer located in the United States, use: https://portal.pull-us.swdp.dyn.nesc.nokia.net/
 
 •	To create tokens for a non-US customer, use: 
+
 https://portal.swdp-pull-fin.swdp.dyn.nesc.nokia.net/
-1.2.1	Logging in to SWDP Portal 
+
+. SWDP Portal landing Page.
+image:: SWDP.png[]
+
+
+== 1.2.1	Logging in to SWDP Portal 
+
 On the SWDP Portal, click the Login button at the top-right corner. 
 •	Pick your account from the list shown, or 
 •	Click the Use another account button to sign in with a different email and password.
