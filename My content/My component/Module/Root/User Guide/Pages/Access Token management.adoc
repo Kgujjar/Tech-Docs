@@ -105,9 +105,9 @@ If you see your credentials in the displayed list, click on it:
 .Accounts are available when logged in.
 image::Account.png[]
 
-
-
 Once you click your account, you will be logged in.
+
+
 
 === 1.2.1.2	Use Another Account
 
