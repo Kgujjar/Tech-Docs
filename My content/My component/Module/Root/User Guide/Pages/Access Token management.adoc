@@ -89,13 +89,30 @@ image::swdp.png[]
 
 == 1.2.1	Logging in to SWDP Portal 
 
-On the SWDP Portal, click the Login button at the top-right corner. 
-•	Pick your account from the list shown, or 
-•	Click the Use another account button to sign in with a different email and password.
-1.2.1.1	Pick an Account
+On the SWDP Portal,
+
+. click the Login button at the top-right corner. 
+
+. Pick your account from the list shown, or 
+
+. Click the Use another account button to sign in with a different email and password.
+
+=== 1.2.1.1	Pick an Account
+
 If you see your credentials in the displayed list, click on it:
+
+
+.Accounts are available when logged in.
+
+
+
+image::Account.png[]
+
+
+
 Once you click your account, you will be logged in.
-1.2.1.2	Use Another Account
+
+=== 1.2.1.2	Use Another Account
 If you do not see your account, click the Use another account button, then type your email:
 
 Then type your password:
