@@ -100,11 +100,11 @@ image::swdp.png[]
 
 On the SWDP Portal,
 
-. click the Login button at the top-right corner. 
+. click the *Login button* at the top-right corner. 
 
-. Pick your account from the list shown, or 
+. Pick your *account* from the list shown, or 
 
-. Click the Use another account button to sign in with a different email and password.
+. Click the *Use another account button* to sign in with a different email and password.
 
 :sectnums:
 === Pick an Account
@@ -182,7 +182,7 @@ image::Token.png[]
 
 . To create a token, click the Generate Token button. 
 
-A new pop-up window will appear, asking you to provide a name to your token. 
+A new pop-up window will appear, asking you to provide a *name* to your token. 
 
 * Type a unique name meeting the following criteria:
 
@@ -245,7 +245,7 @@ image::access tokens.png[]
 
 If you want to delete all tokens at once, click the Delete all button. You will be prompted to confirm your choice to delete all your 
 
-access tokens. Click Yes to delete all tokens.
+access tokens. Click *Yes* to delete all tokens.
 
 
 .Delete all token pop-up window.
