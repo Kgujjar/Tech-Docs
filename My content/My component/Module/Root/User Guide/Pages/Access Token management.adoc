@@ -85,8 +85,8 @@ SWDP Portal offers two web portal URLs to create access tokens:
 
 https://portal.swdp-pull-fin.swdp.dyn.nesc.nokia.net/
 
-. SWDP Portal landing Page.
-image:: SWDP.png[]
+
+image:: swdp.png[]
 
 
 == 1.2.1	Logging in to SWDP Portal 
