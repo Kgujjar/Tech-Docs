@@ -130,6 +130,7 @@ image::Password.png[]
 
 
 
+
 ⓘ	If logging in for the first time, then a pop-up window is displayed asking you to grant access. Click Accept to grant access.
 
 ⓘ	After 1 hour of inactivity, if you click on any element, you will be automatically redirected to the login page.
