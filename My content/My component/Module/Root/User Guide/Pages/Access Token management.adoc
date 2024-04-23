@@ -118,17 +118,29 @@ If you do not see your account, click the Use another account button, then type 
 image::Signin.png[]
 
 
+
+
+
 Then type your password:
+
+
+
+.Password Window
+image::Password.png[]
+
+
 
 ⓘ	If logging in for the first time, then a pop-up window is displayed asking you to grant access. Click Accept to grant access.
 
 ⓘ	After 1 hour of inactivity, if you click on any element, you will be automatically redirected to the login page.
 
  
-1.2.2	Managing access tokens using SWDP Portal
+== 1.2.2	Managing access tokens using SWDP Portal
+
 In this section you will be guided on how to navigate the SWDP Portal to create, delete and view token(s).
 
-1.2.2.1	Access Tokens
+=== 1.2.2.1	Access Tokens
+
 After you have logged into the SWDP Portal, you will see the landing page. Click the Access Tokens button:
 
 You will see the Token Management Page. From here, you can generate, delete and view your token(s):
