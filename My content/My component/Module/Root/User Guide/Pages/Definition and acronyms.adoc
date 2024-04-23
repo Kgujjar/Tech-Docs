@@ -1,4 +1,6 @@
-Definition and acronyms 
+= Definition and acronyms 
+
+
 Term	Definition
 Generic File	A file of the lowest delivery level of a product 
 Helm Chart	A Helm chart is a package format. It is also known as containerized software
