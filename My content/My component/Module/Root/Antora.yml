@@ -1,1 +1,11 @@
-
+title: My component
+name: My component
+version: ~
+nav:
+  - modules/ROOT/nav.adoc
+asciidoc:
+  attributes:
+    page-pagination: ''
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
